@@ -2,8 +2,6 @@
 Goal: To utilize Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 ## Prepare the Data
-
-## Find the Best Value for k Using the Original Scaled DataFrame
 - Loaded the data into a Pandas DataFrame
   ![df_market_data](https://github.com/cjhornung/CryptoClustering/assets/134234019/ca13d297-85af-4207-8826-2c711c060170)
 - Generated summary statistics
@@ -11,6 +9,8 @@ Goal: To utilize Python and unsupervised learning to predict if cryptocurrencies
 - Plotted data to see what's in the DataFrame
   
   ![df_market_data_hvplot](https://github.com/cjhornung/CryptoClustering/assets/134234019/3a98b3c8-d263-4e1c-ba81-11a6dd90eb60)
+## Find the Best Value for k Using the Original Scaled DataFrame
+
 - Plotted a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
   ![elbow_curve](https://github.com/cjhornung/CryptoClustering/assets/134234019/70ccaa0a-112b-4f82-a588-28003bb7a3bf)
 
